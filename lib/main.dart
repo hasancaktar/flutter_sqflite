@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sqflite_kullanimi/sqflite_kullanimi.dart';
+import 'package:pedantic/pedantic.dart';
 
 
 void main() {

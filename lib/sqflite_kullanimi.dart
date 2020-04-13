@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:sqflite_kullanimi/MODEL/ogrenciler.dart';
 import 'package:sqflite_kullanimi/UTILS/database_helper.dart';
@@ -18,7 +17,7 @@ class _SqfliteKullanimiState extends State<SqfliteKullanimi> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    databaseHelper=DatabaseHelper();
+    databaseHelper = DatabaseHelper();
   }
 
   @override
@@ -32,11 +31,14 @@ class _SqfliteKullanimiState extends State<SqfliteKullanimi> {
       body: Center(child: Text("BOŞ")),
     );
   }
-  _ekle() async{
-    await databaseHelper.ogrenciEkle(Ogrenci("hasan 1",true));
-    await databaseHelper.ogrenciEkle(Ogrenci("hasan 2",true));
-    await databaseHelper.ogrenciEkle(Ogrenci("hasan 3",true));
-    await databaseHelper.ogrenciEkle(Ogrenci("hasan 4",true));
 
+  _ekle() async {
+    await databaseHelper.ogrenciEkle(Ogrenci("hasan 1", true));
+    await databaseHelper.ogrenciEkle(Ogrenci("hasan 2", true));
+    await databaseHelper.ogrenciEkle(Ogrenci("hasan 3", true));
+    await databaseHelper.ogrenciEkle(Ogrenci("hasan 4", true));
+    var sonuc = await databaseHelper.tumOgrenciler();
+   // debugPrint("SONNUC : $sonuc");
+    debugPrint("SONNUC :"+ sonuc[1]["ad_soyad"].toString());
   }
 }

@@ -44,8 +44,8 @@ class DatabaseHelper {
 
   _initializeDatabase() async {
     Directory klasor = await getApplicationDocumentsDirectory();
-   // String path = join(klasor.path, "ogrenci.db");
-    String path = klasor.path+"ogrenci.db";
+    String path = join(klasor.path, "ogrenci.db");
+    //String path = klasor.path+"ogrenci.db";
     print("olusan veritabanının tam yolu: $path");
     var ogrenciDB = await openDatabase(path, version: 1, onCreate: _createDB);
     return ogrenciDB;
@@ -59,6 +59,12 @@ class DatabaseHelper {
   Future<int> ogrenciEkle(Ogrenci ogrenci) async {
     var db = await _getDatabase();
    var sonuc = await db.insert(_ogrenciTablo, ogrenci.toMap());
+    return sonuc;
+  }
+
+  Future<List<Map<String, dynamic>>> tumOgrenciler() async{
+    var db = await _getDatabase();
+    var sonuc =await db.query(_ogrenciTablo, orderBy: "$_columnId DESC");
     return sonuc;
   }
 }

@@ -11,15 +11,17 @@ class Ogrenci{
 
   String get isim => _isim;
 
+  set isim(String value) {
+    _isim = value;
+  }
+
   bool get aktif => _aktif;
 
   set aktif(bool value) {
     _aktif = value;
   }
 
-  set isim(String value) {
-    _isim = value;
-  }
+
 
   Ogrenci(this._isim, this._aktif);
   Ogrenci.withID(this._id, this._isim, this._aktif);
@@ -35,7 +37,7 @@ class Ogrenci{
   Ogrenci.fromMap(Map<String, dynamic> map){
     this._id=map["id"];
     this._isim=map["ad_soyad"];
-    this.aktif=map["aktif"];
+    this._aktif=map["aktif"];
   }
 
   @override
