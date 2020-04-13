@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c172fa7-d168-46fb-99fc-6cb333e8fbd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/MODEL/ogrenciler.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MODEL/ogrenciler.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/UTILS/database_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UTILS/database_helper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/sqflite_kullanimi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sqflite_kullanimi.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,18 +75,34 @@
       <workItem from="1586717578503" duration="9900000" />
       <workItem from="1586776156369" duration="2287000" />
       <workItem from="1586780136783" duration="2181000" />
-      <workItem from="1586804602335" duration="2238000" />
+      <workItem from="1586804602335" duration="2491000" />
     </task>
+    <task id="LOCAL-00001" summary="commit2">
+      <created>1586817668859</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586817668859</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2265" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1586720525313">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2265" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586720525313" />
+    <state x="2224" y="21" key="CommitChangelistDialog2" timestamp="1586817667866">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2224" y="21" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586817667866" />
     <state x="2240" y="189" key="FileChooserDialogImpl" timestamp="1586729032049">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>

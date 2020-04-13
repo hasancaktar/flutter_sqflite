@@ -33,10 +33,10 @@ class _SqfliteKullanimiState extends State<SqfliteKullanimi> {
   }
 
   _ekle() async {
-    await databaseHelper.ogrenciEkle(Ogrenci("hasan 1", true));
-    await databaseHelper.ogrenciEkle(Ogrenci("hasan 2", true));
-    await databaseHelper.ogrenciEkle(Ogrenci("hasan 3", true));
-    await databaseHelper.ogrenciEkle(Ogrenci("hasan 4", true));
+    await databaseHelper.ogrenciEkle(Ogrenci("hasan1", true));
+    await databaseHelper.ogrenciEkle(Ogrenci("hasan2", true));
+    await databaseHelper.ogrenciEkle(Ogrenci("hasan3", true));
+    await databaseHelper.ogrenciEkle(Ogrenci("hasan4", true));
     var sonuc = await databaseHelper.tumOgrenciler();
    // debugPrint("SONNUC : $sonuc");
     debugPrint("SONNUC :"+ sonuc[1]["ad_soyad"].toString());
