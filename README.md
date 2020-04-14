@@ -4,4 +4,4 @@
 ![Ek Açıklama 2020-04-14 235715](https://user-images.githubusercontent.com/53625738/79274422-3ca35300-7ead-11ea-9c5b-93bfaafae789.png)
 
 ## YouTube Videosu
-### [![Flutter Uygulaması Not Defteri](http://i3.ytimg.com/vi/5JoaA7-UuCY/maxresdefault.jpg)](https://www.youtube.com/watch?v=5JoaA7-UuCY "Flutter Uygulaması - Not Defteri")
+[![Flutter Uygulaması Not Defteri](http://i3.ytimg.com/vi/5JoaA7-UuCY/maxresdefault.jpg)](https://www.youtube.com/watch?v=5JoaA7-UuCY "Flutter Uygulaması - Not Defteri")
