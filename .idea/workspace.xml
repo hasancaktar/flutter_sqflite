@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c172fa7-d168-46fb-99fc-6cb333e8fbd7" name="Default Changelist" comment="">
+    <list default="true" id="3c172fa7-d168-46fb-99fc-6cb333e8fbd7" name="Default Changelist" comment="commit2">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/MODEL/ogrenciler.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MODEL/ogrenciler.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/UTILS/database_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UTILS/database_helper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/sqflite_kullanimi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sqflite_kullanimi.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqflite_kullanimi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sqflite_kullanimi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +33,7 @@
     <expand />
     <select />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_XL_API_29" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -38,7 +48,6 @@
   <component name="ProjectId" id="1aS8JkPAccDkFKj7LjmDc2kcG2g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -48,9 +57,10 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="device.file.explorer" />
@@ -75,7 +85,9 @@
       <workItem from="1586717578503" duration="9900000" />
       <workItem from="1586776156369" duration="2287000" />
       <workItem from="1586780136783" duration="2181000" />
-      <workItem from="1586804602335" duration="2491000" />
+      <workItem from="1586804602335" duration="9960000" />
+      <workItem from="1586826160512" duration="941000" />
+      <workItem from="1586866859800" duration="9261000" />
     </task>
     <task id="LOCAL-00001" summary="commit2">
       <created>1586817668859</created>
@@ -88,7 +100,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit2" />
@@ -99,34 +111,42 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2265" y="150" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586720525313" />
-    <state x="2224" y="21" key="CommitChangelistDialog2" timestamp="1586817667866">
+    <state x="2320" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586825842504">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="2224" y="21" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586817667866" />
+    <state x="2320" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586825842504" />
+    <state x="2224" y="0" key="CommitChangelistDialog2" timestamp="1586893095776">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2224" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893095776" />
+    <state x="1940" y="70" width="1256" height="676" key="DiffContextDialog" timestamp="1586820817885">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="1940" y="70" width="1256" height="676" key="DiffContextDialog/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586820817885" />
     <state x="2240" y="189" key="FileChooserDialogImpl" timestamp="1586729032049">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2240" y="189" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586729032049" />
-    <state width="1397" height="161" key="GridCell.Tab.0.bottom" timestamp="1586796116051">
+    <state width="1397" height="180" key="GridCell.Tab.0.bottom" timestamp="1586893150195">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586796116051" />
-    <state width="1397" height="161" key="GridCell.Tab.0.center" timestamp="1586796116050">
+    <state width="1397" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893150195" />
+    <state width="1397" height="180" key="GridCell.Tab.0.center" timestamp="1586893150195">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="161" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586796116050" />
-    <state width="1397" height="161" key="GridCell.Tab.0.left" timestamp="1586796116050">
+    <state width="1397" height="180" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893150195" />
+    <state width="1397" height="180" key="GridCell.Tab.0.left" timestamp="1586893150195">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="161" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586796116050" />
-    <state width="1397" height="161" key="GridCell.Tab.0.right" timestamp="1586796116051">
+    <state width="1397" height="180" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893150195" />
+    <state width="1397" height="180" key="GridCell.Tab.0.right" timestamp="1586893150195">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="161" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586796116051" />
-    <state x="1961" y="9" key="SettingsEditor" timestamp="1586785162247">
+    <state width="1397" height="180" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893150195" />
+    <state x="1961" y="9" key="SettingsEditor" timestamp="1586866917996">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="1961" y="9" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586785162247" />
+    <state x="1961" y="9" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586866917996" />
     <state x="2017" y="105" width="886" height="659" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1586777525618">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>

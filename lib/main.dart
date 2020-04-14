@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sqflite_kullanimi/sqflite_kullanimi.dart';
-import 'package:pedantic/pedantic.dart';
+
 
 
 void main() {
@@ -12,9 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+       // primarySwatch: Colors.blue,
+        accentColor: Colors.pinkAccent,
+            backgroundColor: Colors.white10,
       ),
       home: SqfliteKullanimi(),
     );

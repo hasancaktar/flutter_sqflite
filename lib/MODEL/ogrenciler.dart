@@ -37,7 +37,7 @@ class Ogrenci{
   Ogrenci.fromMap(Map<String, dynamic> map){
     this._id=map["id"];
     this._isim=map["ad_soyad"];
-    this._aktif=map["aktif"];
+    this._aktif=map["aktif"] =="1" ? true : false;
   }
 
   @override
