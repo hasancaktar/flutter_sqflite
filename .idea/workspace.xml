@@ -3,16 +3,27 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c172fa7-d168-46fb-99fc-6cb333e8fbd7" name="Default Changelist" comment="commit2">
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3c172fa7-d168-46fb-99fc-6cb333e8fbd7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/MODEL/ogrenciler.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MODEL/ogrenciler.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/UTILS/database_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UTILS/database_helper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/sqflite_kullanimi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sqflite_kullanimi.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqflite_kullanimi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sqflite_kullanimi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +68,6 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -87,7 +97,9 @@
       <workItem from="1586780136783" duration="2181000" />
       <workItem from="1586804602335" duration="9960000" />
       <workItem from="1586826160512" duration="941000" />
-      <workItem from="1586866859800" duration="9261000" />
+      <workItem from="1586866859800" duration="10061000" />
+      <workItem from="1586962031001" duration="172000" />
+      <workItem from="1586962220854" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="commit2">
       <created>1586817668859</created>
@@ -96,15 +108,35 @@
       <option name="project" value="LOCAL" />
       <updated>1586817668859</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit3">
+      <created>1586893699608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586893699608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
+    <MESSAGE value="commit3" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2265" y="150" key="#com.intellij.ide.util.MemberChooser" timestamp="1586720525313">
@@ -115,10 +147,10 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2320" y="166" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586825842504" />
-    <state x="2224" y="0" key="CommitChangelistDialog2" timestamp="1586893095776">
+    <state x="2224" y="0" key="CommitChangelistDialog2" timestamp="1586893698879">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="2224" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893095776" />
+    <state x="2224" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893698879" />
     <state x="1940" y="70" width="1256" height="676" key="DiffContextDialog" timestamp="1586820817885">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
@@ -127,22 +159,22 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2240" y="189" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586729032049" />
-    <state width="1397" height="180" key="GridCell.Tab.0.bottom" timestamp="1586893150195">
+    <state width="1397" height="239" key="GridCell.Tab.0.bottom" timestamp="1586898708008">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893150195" />
-    <state width="1397" height="180" key="GridCell.Tab.0.center" timestamp="1586893150195">
+    <state width="1397" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586898708008" />
+    <state width="1397" height="239" key="GridCell.Tab.0.center" timestamp="1586898708008">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="180" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893150195" />
-    <state width="1397" height="180" key="GridCell.Tab.0.left" timestamp="1586893150195">
+    <state width="1397" height="239" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586898708008" />
+    <state width="1397" height="239" key="GridCell.Tab.0.left" timestamp="1586898708008">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="180" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893150195" />
-    <state width="1397" height="180" key="GridCell.Tab.0.right" timestamp="1586893150195">
+    <state width="1397" height="239" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586898708008" />
+    <state width="1397" height="239" key="GridCell.Tab.0.right" timestamp="1586898708008">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="180" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586893150195" />
+    <state width="1397" height="239" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586898708008" />
     <state x="1961" y="9" key="SettingsEditor" timestamp="1586866917996">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
@@ -159,6 +191,10 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2449" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586817641239" />
+    <state x="2022" y="113" width="1235" height="657" key="new project wizard" timestamp="1586962281656">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2022" y="113" width="1235" height="657" key="new project wizard/0.0.1536.824/1920.0.1440.860@1920.0.1440.860" timestamp="1586962281656" />
     <state x="2116" y="200" key="run.anything.popup" timestamp="1586726885983">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
